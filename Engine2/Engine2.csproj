@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Engine2.M3u8Downloader</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Engine2 Team</Authors>
+    <Description>A C# wrapper library for N_m3u8DL-RE that provides easy-to-use APIs for downloading HLS, DASH, and MSS streaming media content.</Description>
+    <PackageTags>m3u8;hls;dash;mss;downloader;streaming;video</PackageTags>
+    <RepositoryUrl>https://github.com/iwxdeng/N_m3u8DL-RE</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Diagnostics.Process" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
